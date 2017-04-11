@@ -17,32 +17,4 @@ describe('date parse', () => {
     });
   });
 
-  describe('zeroDate', () => {
-
-    describe('when given a date object', () => {
-      let dt;
-
-      beforeEach(() => {
-        dt = new Date();
-        parse.zeroDate(dt);
-      });
-
-      it('should zero out the hours', () => {
-        expect(dt.getHours()).toBe(0);
-      });
-
-      it('should zero out the minutes', () => {
-        expect(dt.getMinutes()).toBe(0);
-      });
-
-      it('should zero out the seconds', () => {
-        expect(dt.getSeconds()).toBe(0);
-      });
-
-      it('should zero out the milliseconds', () => {
-        expect(dt.getMilliseconds()).toBe(0);
-      });
-    });
-  });
-
 });

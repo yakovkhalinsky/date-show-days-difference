@@ -2,14 +2,14 @@
 
 #### Requirements
 
- - Node.js 7.8.0+
+ - Node.js 6.10.0+
 
 #### Setup
 
 Things to do to set this up:
 
  - Clone the repository
- - `npm install`
+ - Nothing else, there are no runtime dependencies
 
 
 #### Usage
@@ -18,4 +18,7 @@ Run `npm start`
 
 
 #### Run Tests
- Run `npm test`
+
+First run `npm install`
+
+Then run `npm test`

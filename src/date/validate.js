@@ -1,12 +1,5 @@
 const REGEXP_NUMBERS_STRING = /[0-9]{2}\s[0-9]{2}\s[0-9]{4}/;
 
-const ERROR_MAP = {
-  year: 'Invalid year',
-  month: 'Invalid month',
-  date: 'Invalid day',
-  string: 'Date string must be in format DD MM YYYY'
-};
-
 exports.isValidString = function(dateStr) {
   return REGEXP_NUMBERS_STRING.test(dateStr);
 }

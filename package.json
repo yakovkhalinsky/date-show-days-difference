@@ -1,0 +1,17 @@
+{
+  "name": "date-difference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 7.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Yakov Khalinsky <yakov@therocketsurgeon.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
